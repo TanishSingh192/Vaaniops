@@ -1,0 +1,16 @@
+# VaaniOps roadmap
+- [x] App shell, sign-in with roles, 15 sections, seeded banking data
+- [x] Prisma STT + Timbre TTS (REST) live
+- [x] Analytics for Live Operations + AI issue triage (panel + dedicated page)
+- [x] Full dispute workflow (open, assign, investigate, resolve, close, notes, timeline)
+- [x] Live Operations intent reasoning on Lovable AI (rule fallback)
+- [ ] Real-time Prisma/Timbre WebSocket streaming relay — needs a long-lived server socket; current hosting runs short requests only
+- [ ] Gnani Evon — blocked: hosted API is closed beta; need endpoint/access
+- [x] Agent Studio: drag-and-drop flow, saved versions, test console
+- [x] Customer chat inside each dispute (saved with timestamps; delivery to customer not connected)
+- [x] Verified failed-UPI phrase → dispute → assign → resolve → close
+- [x] My Queue: assigned tickets, pending actions, chat history, request more tickets
+- [x] CSV import of customer accounts + transactions; resolving failed/duplicate disputes credits balance (ledger)
+- [ ] Load the bank's real CSV — waiting on the user's files
+- [x] Operator Performance page (claims, status changes, notes, customer messages, close times)
+- [x] Team & Roles page: self sign-up as viewer, admin promotes to operator/admin

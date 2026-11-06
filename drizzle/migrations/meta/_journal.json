@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793959255583,
+      "tag": "0000_vaaniops_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793960522869,
+      "tag": "0001_dispute_workflow",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793963292000,
+      "tag": "0002_dispute_messages_agent_versions",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793964421463,
+      "tag": "0003_balances_ledger",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793966508633,
+      "tag": "0004_restrict_staff_reads",
+      "breakpoints": true
+    }
+  ]
+}
